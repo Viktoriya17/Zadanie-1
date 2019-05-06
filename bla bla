@@ -1,0 +1,21 @@
+def pobierz_dane(liczba_cyfr):
+    lista = []
+    for i in range(liczba_cyfr):
+        cyfra = int(input("Wpisz cyfrę: "))
+        lista.append(cyfra)
+    return lista
+
+def podzielna3(liczba):
+    if liczba % 3 == 0:
+        return "True"
+    else:
+        return "False"
+
+
+
+liczba_cyfr = int(input("Ile liczb chcesz wpisać?: "))
+lista = []
+lista = pobierz_dane(liczba_cyfr)
+for i in range(len(lista)):
+    liczba = lista[i]
+print("Dla elementu listy", liczba, "podzielne przez 3 równa się ", podzielna3(liczba))
