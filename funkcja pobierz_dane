@@ -1,0 +1,11 @@
+def pobierz_dane(liczba_cyfr):
+    lista = []
+    for i in range(liczba_cyfr):
+        cyfra = int(input("Wpisz cyfrę: "))
+        lista.append(cyfra)
+    return lista
+
+liczba_cyfr = int(input("Ile liczb chcesz wpisać?: "))
+lista = []
+lista = pobierz_dane(liczba_cyfr)
+print("Lista liczb:", lista)
