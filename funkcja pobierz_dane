@@ -9,3 +9,6 @@ liczba_cyfr = int(input("Ile liczb chcesz wpisać?: "))
 lista = []
 lista = pobierz_dane(liczba_cyfr)
 print("Lista liczb:", lista)
+
+
+HELLOOOO
