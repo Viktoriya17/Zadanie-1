@@ -19,3 +19,4 @@ lista = pobierz_dane(liczba_cyfr)
 for i in range(len(lista)):
     liczba = lista[i]
 print("Dla elementu listy", liczba, "podzielne przez 3 równa się ", podzielna3(liczba))
+print("Człowiek to ludzik")
